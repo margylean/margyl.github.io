@@ -1,0 +1,96 @@
+.title{
+
+  padding: 60px;
+  text-align: center;
+  background:rgb(90, 181, 241);
+  color: white;
+  
+}
+.title h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .month {
+      padding: 40px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    text-align: center;
+    background:rgb(90, 181, 241);
+    color: white;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(43, 121, 173);
+  }
+
+  form {
+    border: 3px solid rgb(43, 121, 173);
+    font-family: Arial;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: rgb(90, 181, 241);
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(43, 121, 173);
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
